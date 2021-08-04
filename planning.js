@@ -15,3 +15,10 @@
 // -> RazorPay payment gateway
 
 // Plan -> How are we building it??? 
+// Layouts
+// Routes
+// Pages 
+// Components
+
+// HOC
+// Higher Order Components
