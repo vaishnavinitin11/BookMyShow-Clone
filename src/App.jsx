@@ -1,15 +1,15 @@
 import { Route } from "react-router-dom"
 
-// HOC
+// HOC 
 import DefaultHOC from "./HOC/Default.HOC";
 
-// Components
+// Comonents
 import Temp from "./components/temp";
 
 function App() {
   return (
     <>
-      <DefaultHOC path="/" exact components={Temp} />
+      <DefaultHOC path="/" exact component={Temp} />
     </>
   );
 }
