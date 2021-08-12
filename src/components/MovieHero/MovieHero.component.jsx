@@ -11,6 +11,9 @@ const MovieHero = () => {
                     style={{ height: "calc(180vw)"}}
                 >
 
+                    <div className="absolute z-20 bottom-4 left-4">
+                        <MovieInfo/>
+                    </div>
                     <div className="w-full h-56 bg-opacity-50 absolute bg-black z-10 bottom-0" />
 
                     <img 
@@ -27,6 +30,10 @@ const MovieHero = () => {
                 >
 
                     <div className="w-full h-56 bg-opacity-50 absolute bg-black z-10 bottom-0" />
+
+                    <div className="absolute z-20 bottom-4 ">
+                        <MovieInfo/>
+                    </div>
 
                     <img 
                         src="https://in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/zack-snyder-s-justice-league-et00047164-10-04-2021-03-22-49.jpg"
@@ -50,7 +57,7 @@ const MovieHero = () => {
                         }} 
                     />
 
-                    <div className="absolute z-30 left-24 top-10 flex items-center">
+                    <div className="absolute z-30 left-24 top-10 flex items-center gap-10">
                         <div className=" w-64 h-96 ">
                             <img 
                                 src="https://in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/zack-snyder-s-justice-league-et00047164-10-04-2021-03-22-49.jpg"
